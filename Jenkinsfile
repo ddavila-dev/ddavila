@@ -66,7 +66,7 @@ pipeline{
 
     }
     post{
-        always{
+        failure{
             echo 'Registrar Build'
         }
     }
